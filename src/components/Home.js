@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import Jobs from "./Jobs";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         the world. We're looking for talented visionaries to help us to expand
         our impact on the way artificial intelligence is developed.
       </Typography>
+      <Jobs />
     </Box>
   );
 }
